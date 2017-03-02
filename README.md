@@ -170,7 +170,15 @@ Now that the needed sources are in RHMAP we should deploy the app. Click on the 
 
 Do the same for the other environments by changing the environment on the dropdown list at the top right corner.</td>
 
+***Notes***
 
+If you hit this error while pulling from the github repo
+
+```
+fatal: refusing to merge unrelated histories
+Error redoing merge 1234deadbeef1234deadbeef
+```
+That could be because your git client version is ***>= 2.9.x***. If that is your case, please add the following option ``--allow-unrelated-histories`` to the ``git pull github master`` command
 
 # Create an empty project and import assets
 
