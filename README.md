@@ -172,7 +172,7 @@ Do the same for the other environments by changing the environment on the dropdo
 
 ***Notes***
 
-If you hit this error while pulling from the github repo
+If you hit this error while pulling from the github repo...
 
 ```
 fatal: refusing to merge unrelated histories
